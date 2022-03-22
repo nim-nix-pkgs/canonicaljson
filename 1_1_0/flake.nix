@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-canonicaljson-1_1_0.flake = false;
+  inputs.src-canonicaljson-1_1_0.ref   = "refs/tags/1.1.0";
   inputs.src-canonicaljson-1_1_0.owner = "jackhftang";
-  inputs.src-canonicaljson-1_1_0.ref   = "1_1_0";
   inputs.src-canonicaljson-1_1_0.repo  = "canonicaljson.nim";
   inputs.src-canonicaljson-1_1_0.type  = "github";
   
