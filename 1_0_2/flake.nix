@@ -11,6 +11,7 @@
   inputs.src-canonicaljson-1_0_2.ref   = "refs/tags/1.0.2";
   inputs.src-canonicaljson-1_0_2.owner = "jackhftang";
   inputs.src-canonicaljson-1_0_2.repo  = "canonicaljson.nim";
+  inputs.src-canonicaljson-1_0_2.dir   = "";
   inputs.src-canonicaljson-1_0_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
